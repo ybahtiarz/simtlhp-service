@@ -49,9 +49,9 @@ type CreateLHPRequest struct {
 type LHPFilter struct {
 	Page      int
 	Limit     int
-	Search    *string
-	StartDate *string
-	Enddate   *string
+	Search    string
+	StartDate string
+	EndDate   string
 	Status    *string
 }
 
